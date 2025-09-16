@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Pagina</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+            <div class="container px-5">
+                <a class="navbar-brand fw-bold" href="#info">
+                    <i class="bi bi-person-circle me-2"></i>Juan Pablo Toro
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#info">Sobre mí</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#experiencia">Experiencia</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#hobbies">Hobbies</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header personalizado -->
+        <header class="bg-dark py-5">
+            <div class="container px-5">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="text-center my-5">
+                            <h1 class="display-4 fw-bold text-white mb-3">¡Bienvenido a mi portafolio!</h1>
+                            <p class="lead text-white-50 mb-4">
+                                Soy <span class="fw-bold text-white">Juan Pablo Toro</span>, estudiante de 11° grado en el IE Pio XI y apasionado por la programación.<br>
+                                Aquí encontrarás información sobre mi formación, habilidades, proyectos, hobbies y más.
+                            </p>
+                            <a class="btn btn-primary btn-lg px-4" href="#info">
+                                Conóceme <i class="bi bi-arrow-down ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    <section id="info" class="sobre-mi-section d-flex align-items-center justify-content-center" style="min-height: 60vh; background: #fff;">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Título a la izquierda -->
+                <div class="col-md-4 text-center text-md-end mb-4 mb-md-0">
+                    <h2 class="text-dark display-5 fw-bold">Sobre mí</h2>
+                </div>
+                <!-- Flecha al centro solo en pantallas medianas o más -->
+                <div class="col-md-1 d-none d-md-flex justify-content-center">
+                    <span style="font-size: 3rem; color: #222;">&#8594;</span>
+                </div>
+                <!-- Texto a la derecha -->
+                <div class="col-md-7 text-center text-md-start">
+                    <p class="text-dark fs-4 mb-0">
+                        Mi nombre es <strong>Juan Pablo Toro</strong> y actualmente soy estudiante de 11° grado en el IE Pio XI.<br>
+                        Desde hace un año descubrí mi pasión por la programación, un mundo que me ha permitido desarrollar habilidades de lógica, creatividad y resolución de problemas.<br>
+                        Me entusiasma aprender nuevas tecnologías y enfrentar desafíos que me ayuden a crecer tanto personal como profesionalmente. Disfruto trabajar en proyectos que me permitan aplicar mis conocimientos y colaborar con otros.<br>
+                        Aspiro a seguir formándome en el área de la tecnología y contribuir con soluciones innovadoras en el futuro.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-dark text-white py-5" id="habilidades">
+        <div class="container">
+            <h1 class="fw-bold text-center mb-5">Habilidades</h1>
+            <div class="row justify-content-center">
+                <!-- Habilidades Blandas -->
+                <div class="col-md-5 mb-4 mb-md-0">
+                    <div class="card h-100 shadow border-0">
+                        <div class="card-body">
+                            <h3 class="card-title text-primary fw-bold mb-3">
+                                <i class="bi bi-people-fill me-2"></i>Habilidades Blandas
+                            </h3>
+                            <ul class="fs-5 text-dark">
+                                <li><i class="bi bi-people me-2"></i>Trabajo en equipo</li>
+                                <li><i class="bi bi-chat-dots me-2"></i>Comunicación asertiva</li>
+                                <li><i class="bi bi-check-circle me-2"></i>Responsabilidad</li>
+                                <li><i class="bi bi-arrow-repeat me-2"></i>Adaptabilidad</li>
+                                <li><i class="bi bi-lightbulb me-2"></i>Pensamiento crítico</li>
+                                <li><i class="bi bi-clock-history me-2"></i>Gestión del tiempo</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Habilidades Técnicas -->
+                <div class="col-md-5">
+                    <div class="card h-100 shadow border-0">
+                        <div class="card-body">
+                            <h3 class="card-title text-success fw-bold mb-3">
+                                <i class="bi bi-cpu-fill me-2"></i>Habilidades Técnicas
+                            </h3>
+                            <ul class="fs-5 text-dark mb-2">
+                                <li>
+                                    <strong>Frontend:</strong>
+                                    <i class="bi bi-filetype-js text-warning ms-2"></i> JavaScript,
+                                    <i class="bi bi-bootstrap-fill text-primary ms-2"></i> Bootstrap 5,
+                                    <i class="bi bi-filetype-css text-info ms-2"></i> CSS
+                                </li>
+                                <li>
+                                    <strong>Backend:</strong>
+                                    <i class="bi bi-filetype-php text-primary ms-2"></i> PHP,
+                                    <i class="bi bi-cup-hot text-danger ms-2"></i> Java (inicialista),
+                                    <i class="bi bi-node-plus-fill text-success ms-2"></i> Node.js (inicialista)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text-dark py-5" id="experiencia">
+        <div class="container">
+            <h1 class="fw-bold text-center mb-5">Experiencia / Educación</h1>
+            <div id="carruselExperiencia" class="carousel slide mx-auto position-relative" data-bs-ride="carousel" style="max-width: 800px;">
+                <div class="carousel-inner">
+                    <!-- Primaria y Secundaria -->
+                    <div class="carousel-item active">
+                        <div class="card border-0 shadow text-center" style="min-height: 350px; font-size: 1.35rem;">
+                            <div class="card-body d-flex flex-column justify-content-center h-100">
+                                <h4 class="card-title mb-3 display-6"><i class="bi bi-mortarboard-fill me-2"></i>Primaria y Secundaria</h4>
+                                <p class="card-text">
+                                    Estudiante de primaria y secundaria (pronto a graduarme) en la <strong>I.E. Pio XI</strong>. Durante estos años he desarrollado bases sólidas en diferentes áreas del conocimiento y valores fundamentales para mi formación personal y académica.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Media Técnica SENA -->
+                    <div class="carousel-item">
+                        <div class="card border-0 shadow text-center" style="min-height: 350px; font-size: 1.35rem;">
+                            <div class="card-body d-flex flex-column justify-content-center h-100">
+                                <h4 class="card-title mb-3 display-6"><i class="bi bi-laptop-fill me-2"></i>Media Técnica en Programación de Software</h4>
+                                <p class="card-text">
+                                    Actualmente curso la media técnica en <strong>Programación de Software</strong> con el SENA, finalizando este año. Aquí he aprendido sobre desarrollo de aplicaciones, lógica de programación y herramientas modernas del sector tecnológico.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Por seguir... -->
+                    <div class="carousel-item">
+                        <div class="card border-0 shadow text-center" style="min-height: 350px; font-size: 1.35rem;">
+                            <div class="card-body d-flex flex-column justify-content-center h-100">
+                                <h4 class="card-title mb-3 display-6"><i class="bi bi-arrow-right-circle-fill me-2"></i>Por seguir...</h4>
+                                <p class="card-text">
+                                    Mi objetivo es continuar mi formación profesional en el área de la tecnología, aprendiendo nuevas herramientas y enfrentando nuevos retos para crecer personal y profesionalmente.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Controles del carrusel, más hacia los lados -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carruselExperiencia" data-bs-slide="prev" style="left: -60px;">
+                    <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carruselExperiencia" data-bs-slide="next" style="right: -60px;">
+                    <span class="carousel-control-next-icon bg-dark rounded-circle" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-dark py-5" id="hobbies">
+        <div class="container">
+            <h1 class="fw-bold text-center text-white mb-5">Hobbies</h1>
+            <div class="timeline-horizontal position-relative mx-auto" style="max-width: 900px; min-height: 200px;">
+                <!-- Línea horizontal decorativa -->
+                <div class="position-absolute top-50 start-0 translate-middle-y w-100" style="height:6px; background:#444; z-index:0;"></div>
+                <div class="d-flex justify-content-between align-items-center position-relative" style="z-index:1;">
+                    <!-- Fútbol -->
+                    <div class="text-center flex-fill">
+                        <div class="timeline-icon bg-primary text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3" style="width:70px; height:70px; font-size:2.2rem; border:4px solid #fff;">
+                            <i class="bi bi-dribbble"></i>
+                        </div>
+                        <h5 class="text-white fw-bold mb-1">Fútbol</h5>
+                        <p class="text-white-50 small mb-0">Me apasiona jugar y ver fútbol, disfruto compartir partidos con amigos y seguir mis equipos favoritos.</p>
+                    </div>
+                    <!-- Escuchar freestyle -->
+                    <div class="text-center flex-fill">
+                        <div class="timeline-icon bg-success text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3" style="width:70px; height:70px; font-size:2.2rem; border:4px solid #fff;">
+                            <i class="bi bi-mic"></i>
+                        </div>
+                        <h5 class="text-white fw-bold mb-1">Freestyle</h5>
+                        <p class="text-white-50 small mb-0">Me gusta escuchar batallas de freestyle y seguir a los mejores exponentes de este arte urbano.</p>
+                    </div>
+                    <!-- Ver boxeo -->
+                    <div class="text-center flex-fill">
+                        <div class="timeline-icon bg-danger text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3" style="width:70px; height:70px; font-size:2.2rem; border:4px solid #fff;">
+                            <i class="bi bi-box"></i>
+                        </div>
+                        <h5 class="text-white fw-bold mb-1">Boxeo</h5>
+                        <p class="text-white-50 small mb-0">Disfruto ver combates de boxeo y aprender sobre la técnica y la historia de este deporte.</p>
+                    </div>
+                    <!-- Escuchar música -->
+                    <div class="text-center flex-fill">
+                        <div class="timeline-icon bg-warning text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3" style="width:70px; height:70px; font-size:2.2rem; border:4px solid #fff;">
+                            <i class="bi bi-music-note-beamed"></i>
+                        </div>
+                        <h5 class="text-white fw-bold mb-1">Música</h5>
+                        <p class="text-white-50 small mb-0">La música es parte de mi día a día, me acompaña en todo momento y me ayuda a concentrarme y relajarme.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white py-5" id="proyectos">
+        <div class="container">
+            <h1 class="fw-bold text-center mb-5">Proyectos</h1>
+            <p class="card-text fs-5 mb-5">
+                A continuación, algunos de los proyectos en los que he trabajado recientemente:
+            </p>
+            <div class="row justify-content-center mt-5">
+                <!-- Proyecto 1: V&A Inmuebles -->
+                <div class="col-md-5 mb-4">
+                    <div class="card h-100 shadow border-0" style="background: #e3eafc; border-radius: 2rem;">
+                        <div class="card-body text-dark" style="border-radius: 2rem;">
+                            <h4 class="card-title fw-bold mb-3">
+                                <i class="bi bi-house-door-fill me-2"></i>V&amp;A Inmuebles
+                            </h4>
+                            <p class="card-text fs-5">
+                                Proyecto de grado SENA donde se puede vender, alquilar y subir inmuebles fácilmente. Plataforma intuitiva para gestión de propiedades.
+                            </p>
+                            <span class="badge bg-primary bg-opacity-75 text-white mb-2">Inmobiliaria</span>
+                            <span class="badge bg-primary bg-opacity-75 text-white mb-2">PHP</span>
+                            <span class="badge bg-primary bg-opacity-75 text-white mb-2">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 2: Innovatech -->
+                <div class="col-md-5 mb-4">
+                    <div class="card h-100 shadow border-0" style="background: #e6f4ea; border-radius: 2rem;">
+                        <div class="card-body text-dark" style="border-radius: 2rem;">
+                            <h4 class="card-title fw-bold mb-3">
+                                <i class="bi bi-cart-fill me-2"></i>Innovatech
+                            </h4>
+                            <p class="card-text fs-5">
+                                Plataforma ecommerce para vender productos electrónicos. Permite explorar, comprar y gestionar productos de tecnología de manera sencilla.
+                            </p>
+                            <span class="badge bg-success bg-opacity-75 text-white mb-2">Ecommerce</span>
+                            <span class="badge bg-success bg-opacity-75 text-white mb-2">JavaScript</span>
+                            <span class="badge bg-success bg-opacity-75 text-white mb-2">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
